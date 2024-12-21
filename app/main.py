@@ -19,7 +19,7 @@ class Animal:
             f"Hidden: {self.hidden}}}"
         )
 
-    def __str__(cls) -> str:
+    def __str__(self, cls) -> str:
         return str([str(animal) for animal in cls.alive])
 
 
